@@ -32,11 +32,11 @@
 }
 
 .nav a {
-  color: #303844;
+  color: rgba(48, 56, 68, 1);
 }
 
 .nav a:hover {
-  color: #ff4141;
+  color: rgba(255, 65, 65, 1);
 }
 
 .icons {
@@ -45,9 +45,9 @@
 } 
 
 .icons a {
-  color: #303844;
+  color: rgba(48, 56, 68, 1);
 }
 
 .icons a:hover {
-  color: #ff4141;
+  color: rgba(255, 65, 65, 1);
 }
