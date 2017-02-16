@@ -55,12 +55,4 @@ a i:hover {
 .icons {
   margin-top: 20px;
   font-size: 30px;
-} 
-
-.icons a {
-  color: rgba(48, 56, 68, 1);
-}
-
-.icons a:hover {
-  color: rgba(255, 65, 65, 1);
 }
