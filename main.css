@@ -22,6 +22,7 @@
   font-weight: 300;
   letter-spacing: 0.03em;
   line-height: 3em;
+  margin-bottom: 15px;
 }
 
 .content {
@@ -29,6 +30,10 @@
   font-weight: 300;
   letter-spacing: 0.03em;
   line-height: 3em;
+}
+
+.nav {
+  margin-bottom: 15px;
 }
 
 .nav a {
@@ -40,7 +45,7 @@
 }
 
 .icons {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 30px;
 } 
 
