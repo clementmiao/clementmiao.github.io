@@ -44,6 +44,14 @@
   color: rgba(255, 65, 65, 1);
 }
 
+a i {
+  color: rgba(48, 56, 68, 1);
+}
+
+a i:hover {
+  color: rgba(0, 126, 229, 1);
+}
+
 .icons {
   margin-top: 20px;
   font-size: 30px;
