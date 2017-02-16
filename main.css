@@ -30,3 +30,24 @@
   letter-spacing: 0.03em;
   line-height: 3em;
 }
+
+.nav a {
+  color: #303844;
+}
+
+.nav a:hover {
+  color: #ff4141;
+}
+
+.icons {
+  margin-top: 20px;
+  font-size: 30px;
+} 
+
+.icons a {
+  color: #303844;
+}
+
+.icons a:hover {
+  color: #ff4141;
+}
