@@ -1,20 +1,20 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700';
 
-.wrapper {
-    color: rgba(0, 0, 0, 0.8);
-    font-family: Roboto Mono, sans-serif;    
-    padding: 120px;
+.container {
+  display: flex;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Roboto Mono, sans-serif;    
+  padding: 120px;
 }
 
 .title h1 {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
-    display: inline-block;
-    padding-bottom: 10px;
-    margin-bottom: 40px;
-    
-    font-weight: 300;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 .subtitle {
