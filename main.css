@@ -58,3 +58,7 @@ a i:hover {
   margin-top: 20px;
   font-size: 30px;
 }
+
+object {
+  stroke-width: 2;
+}
