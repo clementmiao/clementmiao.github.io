@@ -1,3 +1,28 @@
-#layer path {
-  stroke-width: 2;
+#layer polyline {
+  stroke-width: 15;
+}
+
+#layer ellipse {
+  stroke-width: 15;
+  fill: none;
+}
+
+#layer circle {
+  stroke-width: 15;
+  fill: none;
+}
+
+path {
+  fill-opacity: 0;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-dasharray: 10000;
+  stroke-dashoffset: 10000;
+  animation: draw 10s infinite linear;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
