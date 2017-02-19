@@ -1,26 +1,291 @@
-path {
+.paris {
   fill-opacity: 0;
   stroke: #000;
   stroke-width: 1;
+}
+
+@keyframes draw {
+  /*from {
+    stroke-dashoffset: 0;
+  }*/
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+path {
+  stroke-linecap: round;
+}
+
+g#route1 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route2 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   animation-name: draw;
   animation-duration: 5s;
   animation-direction: alternate;
-  /*animation-fill-mode: forwards; // Stay on the last frame*/
-  animation-iteration-count: infinite; // Run only once
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
-  /*animation: draw 10s infinite linear;*/
 }
 
-/*svg {
-  width: 1000px;
-  height: 1000px;
-  flex-grow: 1;
-}*/
+g#route3 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
-@keyframes draw {
-  to {
-    stroke-dashoffset: 0;
-  }
+g#route4 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route5 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route6 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route7 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route8 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route9 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route10 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route11 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route12 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route13 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route14 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route15 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route16 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route17 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route18 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route19 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+g#route20 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#route21 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }

@@ -1,7 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700';
 
 .container {
-  /*overflow: hidden;*/
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -19,26 +18,14 @@
 
 #left {
   width: 200px;
-  height: 1000px;
-  /*float: left;*/
   flex: auto;
   flex-grow: 1;
-  /*z-index: 0;*/
 }
 
 #right {
-  /*float: left;*/
   flex: auto;
   flex-grow: 4;
-  /*flex-basis: auto;*/
-  /*z-index: 1;*/
-  /*position: absolute;*/
 }
-
-
-/*.container > div {
-  flex: 1;
-}*/
 
 .title h1 {
   border-bottom: 2px solid rgba(0, 0, 0, 0.8);
@@ -88,4 +75,263 @@ a i:hover {
 .icons {
   margin-top: 20px;
   font-size: 30px;
+}
+
+.paris {
+  fill-opacity: 0;
+  stroke: #000;
+  stroke-width: 1;
+}
+
+g.paris_back path {
+  fill-opacity: 0;
+  stroke: #acb0b7;
+  stroke-width: 1;
+}
+
+@keyframes draw {
+  /*from {
+    stroke-dashoffset: 0;
+  }*/
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.paris path {
+  stroke-linecap: round;
+  /*stroke-dasharray: 200, 100;*/
+  stroke-dasharray: 200, 200;
+}
+
+.paris g#route1 path {
+
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 1000;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route2 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route3 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route4 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route5 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route6 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route7 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route8 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route9 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 1500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route10 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route11 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route12 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route13 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route14 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route15 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route16 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route17 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route18 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route19 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris g#route20 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.paris #route21 path {
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
