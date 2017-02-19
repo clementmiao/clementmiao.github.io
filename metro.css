@@ -1,25 +1,23 @@
-#layer polyline {
-  stroke-width: 15;
-}
-
-#layer ellipse {
-  stroke-width: 15;
-  fill: none;
-}
-
-#layer circle {
-  stroke-width: 15;
-  fill: none;
-}
-
 path {
   fill-opacity: 0;
   stroke: #000;
-  stroke-width: 3;
-  stroke-dasharray: 10000;
-  stroke-dashoffset: 10000;
-  animation: draw 10s infinite linear;
+  stroke-width: 1;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  /*animation-fill-mode: forwards; // Stay on the last frame*/
+  animation-iteration-count: infinite; // Run only once
+  animation-timing-function: linear;
+  /*animation: draw 10s infinite linear;*/
 }
+
+/*svg {
+  width: 1000px;
+  height: 1000px;
+  flex-grow: 1;
+}*/
 
 @keyframes draw {
   to {

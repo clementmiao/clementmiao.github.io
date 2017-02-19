@@ -1,13 +1,44 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700';
 
 .container {
+  /*overflow: hidden;*/
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
   flex-wrap: wrap;
   color: rgba(0, 0, 0, 0.8);
   font-family: Roboto Mono, sans-serif;
   padding: 120px;
 }
+
+#left {
+  width: 200px;
+  height: 1000px;
+  /*float: left;*/
+  flex: auto;
+  flex-grow: 1;
+  /*z-index: 0;*/
+}
+
+#right {
+  /*float: left;*/
+  flex: auto;
+  flex-grow: 4;
+  /*flex-basis: auto;*/
+  /*z-index: 1;*/
+  /*position: absolute;*/
+}
+
+
+/*.container > div {
+  flex: 1;
+}*/
 
 .title h1 {
   border-bottom: 2px solid rgba(0, 0, 0, 0.8);
