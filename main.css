@@ -102,9 +102,17 @@ g.paris_back path {
   stroke-linecap: round;
   /*stroke-dasharray: 200, 100;*/
   stroke-dasharray: 200, 200;
+  stroke-dashoffset: 1000;
+  fill-opacity: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+  animation-name: draw;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-.paris g#route1 path {
+/*.paris g#route1 path {
 
   fill-opacity: inherit;
   stroke: inherit;
@@ -334,4 +342,4 @@ g.paris_back path {
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
+}*/
